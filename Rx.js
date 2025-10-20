@@ -41,7 +41,10 @@ console.log(userName + " " + userAge);//конкатенация не лучши
 console.log(`${userName}: ${userAge}. ${3+5} информацияы о пользователе `)// интерполяция */
 // строковый литерал - ${}
 const userName = prompt("Как вас зовут? ");
-console.log(`Привет ${userName}`)
+const userAge = prompt(" сколько вам лет")
+const userTeg = prompt(" ссылка на ваш телеграм")
+
+alert(`Привет ${userName} вам ${userAge} ваш tg@ ${userTeg}`)
 
 
 
